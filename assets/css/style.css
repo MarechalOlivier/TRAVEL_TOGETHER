@@ -1,3 +1,40 @@
+header .main-logo {
+  width: 40%;
+}
 
+#presentation {
+  margin-bottom: 5%;
+}
+
+#presention > .container > img {
+  width: 20%;
+}
+
+#presentation > .container > .row > .col-12, .col-md-6, .col-lg-4:nth-child(2) > img {
+  width: 50%;
+}
+
+#presentation > .container {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid salmon;
+  border-radius: 10px;
+  background-color: salmon;
+}
+
+#services > div > div > div:nth-child(1) {
+  background-image: url(/assets/img/homme-assis-batiment.jpg);
+  height: 5vh;
+}
+
+#services > div > div > div:nth-child(2) {
+  background-image: url(/assets/img/passport.jpg);
+  height: 5vh;
+}
+
+#services > div > div > div:nth-child(3) {
+  background-image: url(/assets/img/montgolfiere.jpg);
+  height: 5vh;
+}
 
 /*# sourceMappingURL=style.css.map */
