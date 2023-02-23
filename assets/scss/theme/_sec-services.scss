@@ -1,0 +1,30 @@
+#services{
+
+    padding-top: 5%;
+
+    .container {
+        .image-homme {
+            background-image: url(../img/homme-assis-batiment.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 50vh;
+            border-radius: 15px;
+        }
+        .image-passport {
+            background-image: url(../img/passport.jpg);
+            background-size: cover;
+            background-position: center;
+            height: calc(50vh / 2);
+            border-radius: 15px;
+            
+        }
+        .image-montgolfiere {
+            background-image: url(../img/montgolfiere.jpg);
+            background-size: cover;
+            background-position: center;
+            height: calc(50vh / 2);
+            border-radius: 15px;
+        }
+    }
+
+}

@@ -1,7 +1,18 @@
+@font-face {
+  font-family: "Roboto Regular";
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+body {
+  font-family: "Roboto Regular", Arial, Helvetica, sans-serif;
+}
+
 header .main-logo {
   width: 40%;
 }
 
+#presentation {
+  color: white;
+}
 #presentation .presentation-container {
   background-color: salmon;
   padding: 3rem;
@@ -11,6 +22,31 @@ header .main-logo {
 #presentation .presentation-container .presentation-phone {
   width: 75%;
   margin-bottom: -10rem;
+}
+
+#services {
+  padding-top: 5%;
+}
+#services .container .image-homme {
+  background-image: url(../img/homme-assis-batiment.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  border-radius: 15px;
+}
+#services .container .image-passport {
+  background-image: url(../img/passport.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 25vh;
+  border-radius: 15px;
+}
+#services .container .image-montgolfiere {
+  background-image: url(../img/montgolfiere.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 25vh;
+  border-radius: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
