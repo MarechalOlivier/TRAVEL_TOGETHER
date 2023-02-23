@@ -1,20 +1,12 @@
 #presentation {
-    margin-bottom: 5%;
-}
-
-
-#presention > .container > img {
-    width: 20%;
-}
-
-#presentation > .container > .row > .col-12,.col-md-6,.col-lg-4:nth-child(2) > img {
-    width: 50%;
-}
-
-#presentation > .container {
-    display: flex;
-    justify-content: space-around;
-    border: 1px solid salmon;
-    border-radius: 10px;
-    background-color: salmon;
+    .presentation-container {
+        background-color:salmon;
+        padding: 3rem;
+        border-radius: 15px;
+        overflow: hidden;
+        .presentation-phone {
+            width: 75%;
+            margin-bottom: -10rem;
+        }
+    }
 }
